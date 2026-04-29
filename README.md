@@ -6,8 +6,10 @@ Boutique furnished one-bedroom rentals at 83/7 Phang Mueang Sai Kor Road, Patong
 
 - `index.html` — page markup
 - `styles.css` — all styling (woody brown + off-white palette)
-- `photos/` — image assets (currently `room-1.jpg`)
+- `room-1.jpg` — hero photo
 - `README.md` — this file
+
+**All four files must sit in the same folder.** No subfolders. If `room-1.jpg` is missing or in a different folder, the photo won't show.
 
 No build step. Just upload and go.
 
@@ -71,10 +73,10 @@ It will be live at **<https://grandcrupatong.github.io>**
 
 ### Adding more photos
 
-The hero photo is at `photos/room-1.jpg`. To add more photos:
+The hero photo is `room-1.jpg`. To add more photos:
 
-1. Drop additional images into the `photos/` folder (e.g. `bathroom.jpg`, `building.jpg`)
-2. To swap the hero image, just replace `photos/room-1.jpg` with a new file of the same name
+1. Save additional images in the same folder (e.g. `bathroom.jpg`, `building.jpg`)
+2. To swap the hero image, just replace `room-1.jpg` with a new file of the same name
 3. To add a gallery section, ask Claude to extend the page
 
 Recommended: square or 4:5 vertical photos at ~1200px+ on the long edge work best.
